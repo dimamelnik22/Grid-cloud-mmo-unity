@@ -20,6 +20,7 @@ public class PlayerMotor : MonoBehaviour
 	public void Move(Vector3 _velocity)
 	{
 		velocity = _velocity;
+		// mousePos = _mousePos;
 	}
 
 	public void Shoot()
@@ -37,8 +38,7 @@ public class PlayerMotor : MonoBehaviour
 	void PerformMovemnt()
 	{
 		if (velocity != Vector3.zero)
-		{
-			
+		{	
 			rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
 		}
 	}

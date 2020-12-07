@@ -932,7 +932,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   mousePointer: {fileID: 1327578374}
   bulletSpawnPoint: {fileID: 522439009}
-  bullet: {fileID: 0}
+  bullet: {fileID: 6115926339636990218, guid: c0f2e976727296e4c9b3d39f7ef3333e, type: 3}
 --- !u!114 &1199299205
 MonoBehaviour:
   m_ObjectHideFlags: 0

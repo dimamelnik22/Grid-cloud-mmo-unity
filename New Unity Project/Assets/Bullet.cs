@@ -10,13 +10,13 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.right * Time.deltaTime*speed);
-        currentBulletTime += Time.deltaTime;
+        transform.Translate(Vector3.forward * Time.deltaTime*speed);
+    }
 
-        if (currentBulletTime > 5)
-        {
-            Destroy(this.GameObject);
-        }
+    private void OnTriggerEnter(Collider obj)
+    {
+        if (obj.gameObject.GetComponent<Obstacle>())
+            Destroy(this.gameObject);
     }
 
 }

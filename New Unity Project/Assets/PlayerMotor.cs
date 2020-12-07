@@ -4,7 +4,10 @@
 public class PlayerMotor : MonoBehaviour
 {
     public Vector3 velocity = Vector3.zero;
-	
+	public GameObject mousePointer;
+	public GameObject bulletSpawnPoint;
+	public GameObject bullet;
+	private Transform bulletSpawned;
 	private Rigidbody rb;
     void Start ()
 	{
@@ -18,10 +21,17 @@ public class PlayerMotor : MonoBehaviour
 	{
 		velocity = _velocity;
 	}
-    	void FixedUpdate()
+
+	public void Shoot()
+    {
+		bulletSpawned = Instantiate(bullet.transform, bulletSpawnPoint.transform.position, Quaternion.identity);
+		bulletSpawned.rotation = bulletSpawnPoint.transform.rotation;
+	}
+    void FixedUpdate()
 	{
 		PerformMovemnt();
-		transform.rotation = Quaternion.identity;
+		Quaternion lookRot = Quaternion.LookRotation(mousePointer.transform.position - this.transform.position);
+		transform.rotation = Quaternion.Lerp(this.transform.rotation, lookRot, Time.deltaTime*100);
 	}
 
 	void PerformMovemnt()
@@ -31,8 +41,5 @@ public class PlayerMotor : MonoBehaviour
 			
 			rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
 		}
-		rb.velocity = Vector3.zero;
-		rb.angularVelocity = Vector3.zero;
-
 	}
 }

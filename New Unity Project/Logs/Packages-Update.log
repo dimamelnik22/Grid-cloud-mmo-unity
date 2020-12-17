@@ -56,3 +56,62 @@ The following packages were updated:
   com.unity.ide.vscode from version 1.2.1 to 1.2.3
   com.unity.test-framework from version 1.1.14 to 1.1.19
   com.unity.textmeshpro from version 3.0.0-preview.1 to 3.0.1
+
+=== Tue Dec 15 18:38:44 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@3.4.7
+  com.unity.analytics@3.3.5
+  com.unity.collab-proxy@1.3.8
+  com.unity.ide.rider@1.2.1
+  com.unity.ide.visualstudio@2.0.2
+  com.unity.ide.vscode@1.2.1
+  com.unity.purchasing@2.0.6
+  com.unity.test-framework@1.1.14
+  com.unity.textmeshpro@3.0.0-preview.1
+  com.unity.timeline@1.2.6
+  com.unity.ugui@1.0.0
+  com.unity.xr.legacyinputhelpers@2.1.4
+
+=== Tue Dec 15 21:33:59 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@3.4.7
+  com.unity.analytics@3.3.5
+  com.unity.collab-proxy@1.3.8
+  com.unity.ide.rider@1.2.1
+  com.unity.ide.visualstudio@2.0.2
+  com.unity.ide.vscode@1.2.1
+  com.unity.purchasing@2.0.6
+  com.unity.test-framework@1.1.14
+  com.unity.textmeshpro@3.0.0-preview.1
+  com.unity.timeline@1.2.6
+  com.unity.ugui@1.0.0
+  com.unity.xr.legacyinputhelpers@2.1.4
+
+=== Wed Dec 16 21:19:35 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ads from version 3.4.7 to 3.5.2
+  com.unity.analytics from version 3.3.5 to 3.5.3
+  com.unity.collab-proxy from version 1.3.8 to 1.3.9
+  com.unity.ide.rider from version 1.2.1 to 2.0.7
+  com.unity.ide.visualstudio from version 2.0.2 to 2.0.5
+  com.unity.ide.vscode from version 1.2.1 to 1.2.3
+  com.unity.purchasing from version 2.0.6 to 2.1.1
+  com.unity.test-framework from version 1.1.14 to 1.1.19
+  com.unity.textmeshpro from version 3.0.0-preview.1 to 3.0.1
+  com.unity.xr.legacyinputhelpers from version 2.1.4 to 2.1.6
